@@ -1,45 +1,33 @@
-import React from 'react';
-import { Button, Typography, Card, CardContent, CardMedia } from '@mui/material';
-
-// const useStyles = makeStyles({
-//   root: {
-//     display: 'flex',
-//     flexDirection: 'column',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//     minHeight: '100vh',
-//     padding: '2rem',
-//     backgroundColor: '#f9fafb',
-//   },
-//   card: {
-//     maxWidth: 345,
-//     margin: '1rem',
-//   },
-//   media: {
-//     height: 140,
-//   },
-// });
+import React from "react";
+import {
+  Button,
+  Typography,
+  Card,
+  CardContent,
+  CardMedia,
+} from "@mui/material";
+import myImage from '../assets/asd.png'; // Adjust the path as needed
 
 const gems = [
   {
     id: 1,
-    name: 'Ruby',
-    description: 'A beautiful red gemstone',
-    image: 'https://example.com/ruby.jpg',
+    name: "Ruby",
+    description: "A beautiful red gemstone",
+    image: "https://example.com/ruby.jpg",
   },
   {
     id: 2,
-    name: 'Sapphire',
-    description: 'A stunning blue gemstone',
-    image: 'https://example.com/sapphire.jpg',
+    name: "Sapphire",
+    description: "A stunning blue gemstone",
+    image: "https://example.com/sapphire.jpg",
   },
   // Add more gems as needed
 ];
 
 const Home = () => {
-
   return (
-    <div className="">
+    <div className="bg-secondary">
+      <img src={myImage} alt="Description" />
       <Typography variant="h2" component="h1" gutterBottom>
         Gem Display Platform
       </Typography>
@@ -49,11 +37,7 @@ const Home = () => {
       <div className="flex flex-wrap justify-center">
         {gems.map((gem) => (
           <Card className="" key={gem.id}>
-            <CardMedia
-              className=""
-              image={gem.image}
-              title={gem.name}
-            />
+            <CardMedia className="" image={gem.image} title={gem.name} />
             <CardContent>
               <Typography variant="h6" component="div">
                 {gem.name}
@@ -65,7 +49,11 @@ const Home = () => {
           </Card>
         ))}
       </div>
-      <Button variant="contained" color="primary" className="mt-4">
+      <Button
+        variant="contained"
+        color="primary"
+        className="text-secondary mt-4"
+      >
         Explore More
       </Button>
     </div>
