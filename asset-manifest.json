@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.e3007882.css",
-    "main.js": "/static/js/main.d4805953.js",
-    "static/media/slide1.png": "/static/media/slide1.309f58189399623d0797.png",
-    "static/media/slide2.png": "/static/media/slide2.952a3482fccf1115956f.png",
-    "static/media/slide3.jpg": "/static/media/slide3.70e5a002a6ab361c2ae9.jpg",
+    "main.css": "/static/css/main.971caea8.css",
+    "main.js": "/static/js/main.cc9305b5.js",
+    "static/media/image3.png": "/static/media/image3.56d709a9a2a5694512f6.png",
+    "static/media/image9.png": "/static/media/image9.a6c3d0963afc4f7d43fa.png",
+    "static/media/background.png": "/static/media/background.a50f4e9e3508c0a25d59.png",
+    "static/media/image7.png": "/static/media/image7.97edec84c1b4f77f19a0.png",
+    "static/media/image6.png": "/static/media/image6.abf0b57cd537318d2a5e.png",
+    "static/media/image1.png": "/static/media/image1.200e7ae58af327400a6f.png",
+    "static/media/image5.png": "/static/media/image5.5f1e06fd405c63d24a2b.png",
+    "static/media/image2.png": "/static/media/image2.7eabbc1bec846169d7ae.png",
+    "static/media/logo.png": "/static/media/logo.c05bfe86c4c61c2734ea.png",
+    "static/media/image4.jpg": "/static/media/image4.af905f37d883662f2c39.jpg",
+    "static/media/image8.jpg": "/static/media/image8.3949cbd87273aa36ff5e.jpg",
+    "static/media/image10.jpeg": "/static/media/image10.ac478c603e3b027dc92f.jpeg",
+    "static/media/Aprilla.ttf": "/static/media/Aprilla.15611985e35a5a4a8c4a.ttf",
     "index.html": "/index.html",
-    "main.e3007882.css.map": "/static/css/main.e3007882.css.map",
-    "main.d4805953.js.map": "/static/js/main.d4805953.js.map"
+    "main.971caea8.css.map": "/static/css/main.971caea8.css.map",
+    "main.cc9305b5.js.map": "/static/js/main.cc9305b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3007882.css",
-    "static/js/main.d4805953.js"
+    "static/css/main.971caea8.css",
+    "static/js/main.cc9305b5.js"
   ]
 }
