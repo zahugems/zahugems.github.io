@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.971caea8.css",
-    "main.js": "/static/js/main.cc9305b5.js",
+    "main.css": "/static/css/main.3120cf4d.css",
+    "main.js": "/static/js/main.3dabaf6a.js",
     "static/media/image3.png": "/static/media/image3.56d709a9a2a5694512f6.png",
     "static/media/image9.png": "/static/media/image9.a6c3d0963afc4f7d43fa.png",
     "static/media/background.png": "/static/media/background.a50f4e9e3508c0a25d59.png",
@@ -16,11 +16,11 @@
     "static/media/image10.jpeg": "/static/media/image10.ac478c603e3b027dc92f.jpeg",
     "static/media/Aprilla.ttf": "/static/media/Aprilla.15611985e35a5a4a8c4a.ttf",
     "index.html": "/index.html",
-    "main.971caea8.css.map": "/static/css/main.971caea8.css.map",
-    "main.cc9305b5.js.map": "/static/js/main.cc9305b5.js.map"
+    "main.3120cf4d.css.map": "/static/css/main.3120cf4d.css.map",
+    "main.3dabaf6a.js.map": "/static/js/main.3dabaf6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.971caea8.css",
-    "static/js/main.cc9305b5.js"
+    "static/css/main.3120cf4d.css",
+    "static/js/main.3dabaf6a.js"
   ]
 }
