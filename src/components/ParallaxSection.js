@@ -15,13 +15,20 @@ const ParallaxSection = () => {
     };
   }, []);
 
+  // Responsive parallax effect with adjustments for mobile
   const parallaxStyle = {
     position: "relative",
-    backgroundPositionY: scrollY * 0.5, // Adjusts speed of background movement
+    backgroundPositionY: scrollY * 0.5,
     height: "calc(100vh - 64px)",
-    backgroundSize: "cover",
-    backgroundPosition: "left",
+    backgroundSize: "cover", // Adjusting for desktop views
+    backgroundPosition: "center", // Better for mobile views
     backgroundRepeat: "no-repeat",
+  };
+
+  // Specific styles for mobile view
+  const mobileParallaxStyle = {
+    backgroundSize: "contain", // Ensure full image is shown on mobile
+    height: "20vh",
   };
 
   return (
@@ -31,14 +38,15 @@ const ParallaxSection = () => {
         className="bg-fixed bg-center bg-no-repeat"
         style={{
           ...parallaxStyle,
+          ...(window.innerWidth < 640 ? mobileParallaxStyle : {}),
           backgroundImage: `url(${background})`,
         }}
       >
-        <div className="h-full flex flex-col items-center justify-center text-lightgray font-bold font-aprilla">
-          <div className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl">
+        <div className="h-full flex flex-col items-center justify-center text-lightgray font-bold font-aprilla p-4 sm:p-8">
+          <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
             ZAHU GEMS
           </div>
-          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-3">
+          <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl mt-2 sm:mt-3">
             The Real Art of Gems
           </p>
         </div>

@@ -6,9 +6,10 @@ import promo6 from "../assets/image6.png";
 
 const Gallery = () => {
   return (
-    <div className="text-gray-600 body-font container px-5 py-24 mx-auto flex flex-wrap">
-      <div className="flex flex-wrap md:-m-2 -m-1">
-        <div className="flex flex-wrap w-1/2">
+    <div className="text-gray-600 body-font container px-5 py-24 mx-auto">
+      <div className="flex flex-wrap">
+        {/* First group of 3 images */}
+        <div className="flex flex-wrap w-full lg:w-1/2">
           {/* Image with hover details */}
           <div className="relative md:p-2 p-1 w-1/2 group">
             <img
@@ -17,11 +18,13 @@ const Gallery = () => {
               src={promo3}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h3 className="text-white text-lg font-semibold">Product Name</h3>
-              <p className="text-white text-sm">
+              <h3 className="text-white text-sm sm:text-lg font-semibold">
+                Product Name
+              </h3>
+              <p className="text-white text-xs sm:text-sm">
                 This is a brief description of the product.
               </p>
-              <p className="text-white text-lg font-bold">$99.99</p>
+              <p className="text-white text-sm sm:text-lg font-bold">$99.99</p>
             </div>
           </div>
 
@@ -33,11 +36,13 @@ const Gallery = () => {
               src={promo2}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h3 className="text-white text-lg font-semibold">Product Name</h3>
-              <p className="text-white text-sm">
+              <h3 className="text-white text-sm sm:text-lg font-semibold">
+                Product Name
+              </h3>
+              <p className="text-white text-xs sm:text-sm">
                 This is a brief description of the product.
               </p>
-              <p className="text-white text-lg font-bold">$99.99</p>
+              <p className="text-white text-sm sm:text-lg font-bold">$99.99</p>
             </div>
           </div>
 
@@ -49,16 +54,19 @@ const Gallery = () => {
               src={promo1}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h3 className="text-white text-lg font-semibold">Product Name</h3>
-              <p className="text-white text-sm">
+              <h3 className="text-white text-sm sm:text-lg font-semibold">
+                Product Name
+              </h3>
+              <p className="text-white text-xs sm:text-sm">
                 This is a brief description of the product.
               </p>
-              <p className="text-white text-lg font-bold">$99.99</p>
+              <p className="text-white text-sm sm:text-lg font-bold">$99.99</p>
             </div>
           </div>
         </div>
 
-        <div className="flex flex-wrap w-1/2">
+        {/* Second group of 3 images */}
+        <div className="flex flex-wrap w-full lg:w-1/2">
           {/* Image with opacity change on hover */}
           <div className="relative md:p-2 p-1 w-full group">
             <img
@@ -67,11 +75,13 @@ const Gallery = () => {
               src={promo4}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h3 className="text-white text-lg font-semibold">Product Name</h3>
-              <p className="text-white text-sm">
+              <h3 className="text-white text-sm sm:text-lg font-semibold">
+                Product Name
+              </h3>
+              <p className="text-white text-xs sm:text-sm">
                 This is a brief description of the product.
               </p>
-              <p className="text-white text-lg font-bold">$99.99</p>
+              <p className="text-white text-sm sm:text-lg font-bold">$99.99</p>
             </div>
           </div>
 
@@ -83,11 +93,13 @@ const Gallery = () => {
               src={promo4}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h3 className="text-white text-lg font-semibold">Product Name</h3>
-              <p className="text-white text-sm">
+              <h3 className="text-white text-sm sm:text-lg font-semibold">
+                Product Name
+              </h3>
+              <p className="text-white text-xs sm:text-sm">
                 This is a brief description of the product.
               </p>
-              <p className="text-white text-lg font-bold">$99.99</p>
+              <p className="text-white text-sm sm:text-lg font-bold">$99.99</p>
             </div>
           </div>
 
@@ -99,11 +111,13 @@ const Gallery = () => {
               src={promo6}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100">
-              <h3 className="text-white text-lg font-semibold">Product Name</h3>
-              <p className="text-white text-sm">
+              <h3 className="text-white text-sm sm:text-lg font-semibold">
+                Product Name
+              </h3>
+              <p className="text-white text-xs sm:text-sm">
                 This is a brief description of the product.
               </p>
-              <p className="text-white text-lg font-bold">$99.99</p>
+              <p className="text-white text-sm sm:text-lg font-bold">$99.99</p>
             </div>
           </div>
         </div>

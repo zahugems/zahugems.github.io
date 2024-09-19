@@ -2,32 +2,28 @@ import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Header = () => {
-
   return (
     <header className="text-white body-font bg-primary">
-      <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
-        <Link
-          to="/"
-          className="flex title-font font-medium items-center mb-4 md:mb-0"
-        >
+      <div className="container mx-auto flex p-2 md:p-4 items-center justify-between">
+        <Link to="/" className="flex items-center">
           <img
             src={logo}
-            alt=""
-            className="w-12 h-12 object-cover object-center rounded-full mr-4"
+            alt="Logo"
+            className="w-10 h-10 object-cover object-center rounded-full mr-2"
           />
-          <span className="ml-2 font-aprilla text-2xl">ZAHU GEMS</span>
+          <span className="ml-2 font-aprilla text-lg sm:text-2xl">ZAHU GEMS</span>
         </Link>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-bronze	flex flex-wrap items-center text-xl justify-center">
-          <Link to="/home" className="mr-7 font-aprilla hover:text-secondary">
+        <nav className="flex space-x-4 sm:space-x-7 font-aprilla text-sm sm:text-lg">
+          <Link to="/home" className="hover:text-secondary">
             Home
           </Link>
-          <Link to="/collections" className="mr-7 font-aprilla hover:text-secondary">
+          <Link to="/collections" className="hover:text-secondary">
             Collections
           </Link>
-          <Link to="/promotions" className="mr-7 font-aprilla hover:text-secondary">
+          <Link to="/promotions" className="hover:text-secondary">
             Promos
           </Link>
-          <Link to="/about" className="mr-7 font-aprilla hover:text-secondary">
+          <Link to="/about" className="hover:text-secondary">
             About us
           </Link>
         </nav>

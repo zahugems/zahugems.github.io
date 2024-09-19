@@ -1,10 +1,10 @@
-import promo1 from '../assets/image1.png'
-import promo2 from '../assets/image2.png'
-import promo3 from '../assets/image3.png'
-import promo4 from '../assets/image4.jpg'
-import promo5 from '../assets/image5.png'
-import promo6 from '../assets/image6.png'
-import promo7 from '../assets/image7.png'
+import promo1 from '../assets/image1.png';
+import promo2 from '../assets/image2.png';
+import promo3 from '../assets/image3.png';
+import promo4 from '../assets/image4.jpg';
+import promo5 from '../assets/image5.png';
+import promo6 from '../assets/image6.png';
+import promo7 from '../assets/image7.png';
 
 const Promotion = () => {
   return (
@@ -12,10 +12,10 @@ const Promotion = () => {
       <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
         <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
           <div className="sm:max-w-lg">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+            <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-6xl">
               Summer styles are finally here
             </h1>
-            <p className="mt-4 text-xl text-gray-500">
+            <p className="mt-4 text-lg text-gray-500 sm:text-xl lg:text-2xl">
               This year, our new summer collection will surround you with elegance and strength,
               designed to shine with you no matter what the world has in store.
             </p>
